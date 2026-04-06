@@ -8,10 +8,10 @@ class Chatbubbles < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/kacy/chatbubbles/releases/download/v0.1.3/chatbubbles_0.1.3_darwin_arm64.tar.gz"
-    sha256 "96566e1aa61e11f28a98f0075a9cbe58a1b560f2391582def5d8afd9626621a1"
+    sha256 "66506fd9df7f4b3a0466022afda82d9907c6e20f174f804e387214f40ab6bfd3"
   else
     url "https://github.com/kacy/chatbubbles/releases/download/v0.1.3/chatbubbles_0.1.3_darwin_amd64.tar.gz"
-    sha256 "a4465e28ffb956a6bf05bd6ca9d731d999957ae8bfe8bc2de1c4671142fc1003"
+    sha256 "4016dccda7bb693c423ffcb5bc877f28dfc2921b69bd857b7b89069b6f28546d"
   end
 
   def install
